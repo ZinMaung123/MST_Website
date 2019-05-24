@@ -62,7 +62,7 @@ body {
 
 .showreel-wrapper label {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 14px;
   letter-spacing: 1px;
 }
 
@@ -131,7 +131,7 @@ body {
 }
 
 .container .side-nav-wrapper {
-  min-width: 80px;
+  min-width: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,7 +155,8 @@ body {
 }
 
 .container .vertical-text {
-  font-size: 1em;
+  font-size: 16px;
+  line-height: 54px;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   text-align: left;
@@ -168,5 +169,12 @@ body {
 
 .container .side-nav-bottom {
   font-size: 0.7em;
+}
+
+.container .showreel-label:hover, .container .side-nav-bottom:hover, .container .side-nav-icon:hover {
+  cursor: pointer;
+  opacity: 0.3;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
 }
 /*# sourceMappingURL=style.css.map */
