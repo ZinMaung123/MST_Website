@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color: #8ACEFF;
+}
+
+.nav-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.title-wrapper{
+    font-size: 1.3em;
+    font-weight: 700;
+    transform: translate(15px, 0px);
+}
+
+.tit-1{
+    font-size: 0.7em;
+    font-weight: bolder;
+    letter-spacing: 7px;
+}
+
+.tit-2{
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.footer-tit{
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.showreel-wrapper{
+    transform: translate(-45px, 0px);
+    display: flex;
+    align-items: center;
+
+    span{
+        display: inline-block;
+        transform: translate(-10px, 0px);
+        font-size: 2em;
+    }
+
+    label{
+        font-weight: bold;
+        font-size: 1.1em;
+        letter-spacing: 1px;
+    }
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+
+    .cap-tit{
+        text-transform: uppercase;
+    }
+
+    .inner-story-wrapper{
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .story{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        color: white;
+        
+        .inner-story{
+            width: 580px;
+            height: 580px;
+            text-align: center;
+        border : 1px solid white;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        
+        img{
+            width:90%;
+            height: 90%;
+        }
+    }
+
+    .side-nav-wrapper{
+        min-width: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        color: white;
+        border-left: 1px solid white;
+        padding: 15px 0px;
+        box-shadow: 1px 0px 7px gray;
+    }
+
+    .side-nav-icon{
+        font-size: 1.8em;
+    }
+
+    .vertical-text{
+        font-size: 1em;
+        transform: rotate(-90deg);
+        text-align: left;
+
+        label{
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+    }
+
+    .side-nav-bottom{
+        font-size: 0.7em;
+    }
+}
